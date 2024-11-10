@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Jewel Store</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <input type="checkbox" name="" id="toggler">
+            <label for="toggler" class="fas fa-bars"></label>
+            <a href="#" class="logo">LUXE JEWELS<span></span></a>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="categories.html">Categories</a>
+                <a href="products.html">New Products</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart" id="cart-btn"></a>
+                <a href="login.html" class="fas fa-user"></a>
+            </div>
+
+            <div class="shopping-cart"> 
+                <div class="cart-wrapper">
+                   
+                </div>
+                
+                <div class="subtotal">sub total:RM.0.00/-</div>
+                <a href="login.html" class="btn">checkout</a>
+            </div>
+        </header>
+
+        <section class="about" id="about">
+            <h1 class="heading"><span>about </span>us</h1>
+            <div class="row">
+                <div class="video-container">
+                <iframe width="740px" height="430px" src="https://www.youtube.com/embed/kYOP52BUZTI?si=QRGchcsTQifxK2K9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                   
+                </div>
+                <div class="content">
+                    <h3>who are we?</h3>
+                    <p>
+                    </p>
+                    <p>
+                       At Luxe Jewels, we celebrate style and individuality with every piece we offer. Our collection features elegant necklaces, stunning earrings, captivating rings, chic bracelets, and timeless watches. All designed to elevate your look.<br>
+					   We believe that luxury should be accessible, which is why we provide high-quality, beautifully crafted jewelry at an affordable price.<br>
+					   Using the finest materials and attention to detail, we create pieces that reflect both classic and modern styles. Whether you're treating yourself or finding the perfect gift, Luxe Jewels helps you express your unique style with jewelry that lasts a lifetime..</p>
+                    <a href="products.html" class="shop">Shop Now</a>
+                </div>
+            </div>
+       </section>   
+        <section class="icons-container">
+            <div class="icons">
+                <img src="images/free delivery.jpg" alt="">
+                <div class="info">
+                    <h3>Free Delivery</h3>
+                    <span>On all orders</span>
+                </div>
+            </div>
+            <div class="icons">
+                <img src="images/10 days return icon.png" alt="">
+                <div class="info">
+                    <h3>10 days returns</h3>
+                    <span>Moneyback Guaranteed</span>
+                </div>
+            </div>        
+            <div class="icons">
+                <img src="images/offers icon.png" alt="">
+                <div class="info">
+                    <h3>offers</h3>
+                    <span>on all orders</span>
+                </div>
+            </div>        
+            <div class="icons">
+                <img src="images/secure-payment2785.jpg" alt="">
+                <div class="info">
+                    <h3>secure payments</h3>
+                    <span>Through online banking</span>
+                </div>
+            </div>           
+        </section>    
+        
+          <section class="footer">
+
+            <div class="box-container">
+                <div class="box">
+                    <h3>Categories jewelry</h3>
+                    <a href="ring.html">Rings</a>
+                    <a href="bracelet.html">Bracelets</a>
+                    <a href="earrings.html">Earrings</a>
+                    <a href="necklace.html">Necklaces</a>
+                    <a href="products.html">Watches</a>
+                </div>
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="index.html">home</a>
+                    <a href="about.html">about</a>
+                    <a href="categories.html">categories</a>
+                    <a href="products.html">new products</a>
+                    <a href="contact.html">contact</a>
+                </div>
+                <div class="box">
+                    <h3>follow us</h3>
+                  <a href="https://www.facebook.com/LuxeJewelsShop/" target="_blank">Facebook </a>
+                    <a href="https://www.instagram.com/luxejewelsshop" target="_blank">instagram</a>
+                </div>
+                <div class="box">
+                    <h3>Contact us</h3>
+                    <p class="fas fa-phone"> <a href="https://wa.me/601125277427"  target="_blank"> +01125277427</a></p><br>
+                   <p class="fas fa-envelope"> <a href="mailto:nurathirahfaslee@gamil.com?subject=Inquiry&body=Hello%20I%20would%20like%20more%20information.">luxejewesl@gmail.com</a></p>
+                </div>
+        
+
+        
+            </div>
+        
+            <h1 class="credit"> creators <span> &#169; Little Tyrah </span> | all rights reserved! </h1>
+            
+        </section>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+		  <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    </body>
+</html>
+
